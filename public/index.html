@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do IP</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Consultar Informações de IP</h1>
+        <div class="input-container">
+            <input type="text" id="ipInput" placeholder="Digite o IP" class="input-field">
+            <button onclick="fetchIPInfo()" class="btn">Consultar</button>
+        </div>
+        <table id="ipInfoTable" class="info-table">
+            <thead>
+                <tr>
+                    <th>Chave</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
